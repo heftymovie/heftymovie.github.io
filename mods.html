@@ -1,24 +1,77 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mods — stubbyfowl</title>
+  <title>mods</title>
+
   <style>
     body {
       margin: 0;
-      background: #111;
-      color: #fff;
+      background: #fff;
+      color: #000;
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 40px;
+      padding: 40px 20px;
     }
-    a { color: #fff; }
+
+    a {
+      color: #000;
+    }
+
+    .project {
+      margin: 40px auto;
+      max-width: 600px;
+      text-align: left;
+      background: #e6e6e6;  /* inverted #181818 */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .project img {
+      width: 300px;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px;
+      border-radius: 10px;
+    }
+
+    .project h2 {
+      margin-top: 0;
+      color: #000;
+    }
+
+    .project p {
+      color: #333; /* inverted #ccc */
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
   <h1>jailbreaks & mods</h1>
-  <p>Here you’ll find tools, jailbreak notes, mod instructions, and project logs.</p>
-  <p><a href="index.html">← back home</a></p>
+
+  <div class="project">
+    <img src="images/project1.jpeg" alt="Project 1">
+    <h2>modded a flipper zero</h2>
+    <p>downloaded custom firmare and bought extenders</p>
+  </div>
+
+  <div class="project">
+    <img src="images/project2.jpeg" alt="Project 2">
+    <h2>3DS CFW</h2>
+    <p>modded a New 3DS with Luma3DS, setup custom themes, and installed games</p>
+  </div>
+
+  <div class="project">
+    <img src="images/project3.jpeg" alt="Project 3">
+    <h2>Wii U CFW</h2>
+    <p>used sd card and online software to install games and emulators</p>
+  </div>
+
+  <p style="margin-top:50px;"><a href="index.html">← back home</a></p>
 </body>
 </html>
